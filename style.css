@@ -1,0 +1,548 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+/* font-family: 'Rubik', sans-serif;
+font-family: 'Rubik Mono One', sans-serif; */
+
+/* Global */
+
+
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background-color: #eeeeee;
+    font-family: 'Rubik', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Navbar */
+
+
+
+
+#navbar img {
+    max-width: 140px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, rgba(55, 58, 64, 0.9), rgba(55, 58, 64, 0.6));
+    background: none;
+    display: block;
+    width: 100%;
+}
+
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.2)), url('./119042650_325687202078985_90996135109527755_n.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.hero-section {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 140px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+.hero-section h1 {
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    color: #eeeeee;
+    font-size: 4vh;
+    letter-spacing: .08rem;
+    margin-bottom: 30px;
+}
+
+.highlight {
+    font-size: 7vh;
+    color: #19d3da;
+}
+
+
+
+#insta,
+#facebook {
+    width: 50px;
+    margin-right: 20px;
+}
+
+#insta:hover,
+#facebook:hover {
+    filter: grayscale();
+}
+
+
+
+
+
+/*  -------Main -------- */
+
+
+.container {
+    width: 93%;
+    margin: 0 auto;
+}
+
+/* Cont 1 , who are we */
+
+
+#cont1,
+#cont3,
+#cont4 {
+    margin-top: 60px;
+    color: #373a40;
+}
+
+#cont1 h3,
+#cont3 h3,
+#cont4 h3 {
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 5vh;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #373a40;
+    padding-bottom: 10px;
+}
+
+#cont1 p {
+    text-align: justify;
+    color: #686d76;
+}
+
+
+/* Container 2/ span tags */
+
+
+#cont2 {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    border: 1px solid transparent;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    font-size: 1.2vh;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Rubik';
+    padding: 10px;
+    border-radius: 22px;
+    color: #686d76;
+    border-bottom: 2px solid #19d3da;
+    padding-bottom: 10px;
+}
+
+.box .highlight {
+    font-size: 10vh;
+    display: block;
+    color: #373a40;
+    font-family: 'Rubik Mono One';
+    margin-bottom: 15px;
+}
+
+
+
+
+/* Cont3....... about alwar */
+
+
+#cont3 {
+    /* same as cont1 */
+    display: flex;
+    flex-direction: column;
+}
+
+#cont3 h3 {
+    /* same as cont1 */
+}
+
+#cont3 img {
+    margin-top: 50px;
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+    border: 2px solid #373a40;
+    margin-bottom: 40px;
+    border-bottom: none;
+}
+
+#cont3 p {
+    font-size: 2.6vh;
+    letter-spacing: .08rem;
+    text-align: justify;
+}
+
+#cont3 a {
+    padding: 6px 12px;
+    font-family: 'cinzel';
+    border: 1px solid black;
+    color: #19d3da;
+    background-color: #373a40;
+    width: max-content;
+    margin-top: 30px;
+}
+
+
+/* Cont4 */
+
+#cont4 {
+    /* same */
+}
+
+#cont4 h3 {
+    /* same */
+}
+
+#cont4 img {
+    width: 100%;
+}
+
+#cont4 p {
+    margin-top: 40px;
+    letter-spacing: 0.08rem;
+    text-align: justify;
+}
+
+
+/* Cont 5 */
+
+
+#cont5 {
+    margin-top: 60px;
+    color: #686d76;
+    font-family: 'cinzel';
+    margin-bottom: 40px;
+    width: 70%;
+    padding: 7px;
+}
+
+#cont5 h3 {
+    margin-bottom: 20px;
+}
+
+#cont5 a {
+    padding: 6px 12px;
+    font-family: 'cinzel';
+    color: #19d3da;
+    background-color: #373a40;
+    margin-top: 30px;
+}
+
+
+/* Footer  */
+
+footer {
+    background-color: #373a40;
+    color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 30vh;
+}
+
+footer img {
+    width: 150px;
+}
+
+#footer-logo {
+    justify-content: flex-start;
+}
+
+footer #bottom-nav ul {
+    display: flex;
+}
+
+footer ul li {
+    margin-left: 4px;
+}
+
+#bottom-nav ul li {
+    border-right: 1px solid white;
+    padding-right: 4px;
+}
+
+#bottom-nav ul li a {
+    color: #eeeeee;
+    transition: .3s ease-in all;
+}
+
+#bottom-nav ul li a:hover {
+    border-bottom: 1px solid #19d3da;
+    padding-bottom: 5px;
+}
+
+#bottom-nav #last-li {
+    border-right: none;
+}
+
+
+
+
+
+/* -------Media Queries */
+
+
+@media(min-width:400px) {
+
+
+    .hero-section {
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        text-align: center;
+        font-size: 7vh;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    #navbar {
+        background: none;
+        border-bottom: none;
+    }
+
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:520px) {
+
+
+    #cont2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 45%;
+        border-radius: 0px;
+    }
+}
+
+@media (min-width:840px) {
+
+    .navbar-links ul li a:hover {
+        border-bottom: 2px solid #19d3da;
+        padding-bottom: 5px;
+    }
+
+
+    #navbar .navbar-links ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-right: 50px;
+        margin-top: 30px;
+
+    }
+
+    header #navbar {
+        display: flex;
+    }
+
+    #navbar .navbar-links ul {
+        display: flex;
+    }
+
+    #navbar .toggle-button {
+        display: none;
+    }
+
+
+
+    .brand-title {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+
+    #navbar .brand-title img {
+        width: 290px;
+    }
+
+    header {
+        background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.2)), url('./ALWAR.jpg');
+    }
+
+    .container {
+        width: 70%;
+    }
+
+    .box {
+        width: 30%;
+    }
+
+    .hero-section h1 {
+        margin-top: 190px;
+    }
+
+    #facebook {
+        margin-right: 30px;
+    }
+
+    #cont3 img {
+        width: 90%;
+        height: 500px;
+    }
+
+    #cont3 p {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #cont3 a {
+        margin: 30px auto;
+
+    }
+
+    #cont4 {
+        text-align: center;
+    }
+
+    #cont4 img {
+        max-width: 500px;
+        margin: auto;
+    }
+
+    #cont4 p {
+        width: 70%;
+        margin: 30px auto;
+    }
+
+    /* Footer */
+
+
+    footer {
+        flex-direction: row;
+    }
+
+    footer a img {
+        width: 200px;
+    }
+
+    footer #bottom-nav ul {
+        flex-direction: column;
+    }
+
+    #bottom-nav ul li {
+        border-right: none;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    #copyright {
+        order: 2;
+        align-self: flex-end;
+        padding-bottom: 10px;
+        color: #eeeeee;
+    }
+
+    #bottom-nav {
+        order: 3;
+    }
+
+
+
+
+
+}
+
+
+
+/* Navbar */
+
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #eeeeee;
+}
+
+#navbar .navbar-links ul li a {
+    color: #eeeeee;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: none;
+    margin-right: 50px;
+    margin-top: 30px;
+    display: none;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .8rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #eeeeee;
+    border-radius: 10px;
+}
+
+/* /////////////// */
+
+
+#navbar {
+    display: inline-block;
+}
+
+.navbar-links ul.active {
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    background-color: #373a4088;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar-links ul li {
+    margin: 8px;
+}

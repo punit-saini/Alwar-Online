@@ -50,7 +50,7 @@ ul {
     width: 100%;
 }
 
-header {
+#home-header {
     background: linear-gradient(rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.2)), url('./119042650_325687202078985_90996135109527755_n.jpg');
     height: 100vh;
     background-position: center;
@@ -391,7 +391,7 @@ footer ul li {
         width: 290px;
     }
 
-    header {
+    #home-header {
         background: linear-gradient(rgba(0, 0, 0, 0.73), rgba(0, 0, 0, 0.2)), url('./ALWAR.jpg');
     }
 
@@ -473,9 +473,47 @@ footer ul li {
         order: 3;
     }
 
+    /* Contact Page */
+
+    main #abt-contact {
+        width: 33%;
+    }
+
+    .cont-box {
+        height: 12rem;
+        align-items: center;
+    }
+
+    #cont5 h3 {
+        font-size: 24px;
+    }
+
+    #cont5 a {
+        font-size: 22px;
+    }
 
 
+    /* About Us */
 
+    .about-cont1 img {
+        max-width: 600px;
+    }
+
+
+    .about-cont2 p,
+    .about-cont1 p {
+        margin-top: 70px;
+        font-size: 1.3rem;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-cont3 {
+        text-align: center;
+        margin-top: 70px;
+        font-size: 1.8rem;
+    }
 
 }
 
@@ -545,4 +583,139 @@ footer ul li {
 
 .navbar-links ul li {
     margin: 8px;
+}
+
+
+/* ------------------- Pricing Page -------- */
+
+#main-cont1 h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 2.6rem;
+    font-family: 'cinzel';
+}
+
+header {
+    background-color: #373a40;
+}
+
+header #navbar {
+    vertical-align: baseline;
+}
+
+
+.box-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+
+
+.main-box {
+    text-align: center;
+    width: 60%;
+    margin: 13px auto;
+    padding: 10px;
+    border: 1px solid transparent;
+    background-color: rgb(32, 29, 29);
+    color: #989fa5;
+}
+
+.main-box h3 {
+    font-size: 1.3rem;
+    color: #19d3da;
+    margin-bottom: 20px;
+}
+
+.main-box h5 {
+    font-size: 1.1rem;
+    color: #eeeeee;
+}
+
+.main-box p {
+    margin-bottom: 5px;
+}
+
+
+/* --------------- about --------- */
+
+
+.about-cont1,
+.about-cont2 {
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-cont1 h3 {
+    margin: 30px;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'cinzel';
+}
+
+.about-cont1 img {
+    width: 90%;
+    border: 1px solid black;
+}
+
+.about-cont1 p,
+.about-cont2 p {
+    margin: 20px auto;
+    text-align: justify;
+}
+
+.about-cont2 h5 {
+    font-size: 1.2rem;
+}
+
+
+.about-cont3 {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #373a40;
+
+}
+
+
+.about-cont3 p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.about-cont3 img {
+    margin-bottom: 30px;
+}
+
+
+/* -------------- Contact -------------- */
+
+
+#abt-contact {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#abt-contact h2 {
+    margin: 30px auto;
+    font-family: 'cinzel';
+    font-size: 1.8rem;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cont-box {
+    margin-bottom: 20px;
+    padding: 5px;
+    background-color: #373a40;
+    color: #eeeeee;
 }
